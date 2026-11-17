@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif, Arial, Helvetica;
+    background-color: #f4f4f9;
+    line-height: 1.5rem;
+}
+
+#main-header{
+    background-color: #8B0000;
+    color: #ADD8E6;
+    padding: 30px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.nav-list{
+    list-style: none;    
+}
+
+.nav-item{
+    display: inline-block;
+    margin: 20px;     
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-item a:hover {
+    color: #FFFFFF;
+}
+
+#main-content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.post-card{
+    display: inline-block;
+    width: 48%;
+    border: 2px solid #808080;
+    background-color: #FFFFFF;
+    border-radius:10px;
+    box-shadow: 4px 4px #A9A9A9;
+}
+
+.post-thumbnail{
+    max-width: 100%;
+    height: auto;
+}
+
+.data-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-table th, td{
+    padding: 5px;
+    border-bottom: 1px solid #000000;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #D3D3D3;
+}
+
+.transcript-box{
+    padding: 10px;
+    border-left: 5px solid #008000;
+}
+
+#main-footer{
+    background-color: #008B8B;
+    padding: 10px;
+    line-height: 2rem;
+}
+
+summary:hover {
+    cursor: pointer;
+}
+
+#media-center, #authors-ranking, #interactive-zone, #hero-section h2, #latest-posts h2{
+    margin: 20px; /*to give more space to the elements that are too close to each other*/
+}
+
+#authors-ranking caption, #interactive-zone p{
+    margin: 10px; /*giving more space to different elements*/
+}
