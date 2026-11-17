@@ -48,6 +48,7 @@ body{
     background-color: #FFFFFF;
     border-radius:10px;
     box-shadow: 4px 4px #A9A9A9;
+    padding: 10px;
 }
 
 .post-thumbnail{
