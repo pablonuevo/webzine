@@ -9,6 +9,9 @@ body {
 	line-height: 1.5;
 	background-color: #f4f6f8;
 	color: #1f2933;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 img, video, canvas {
@@ -34,6 +37,10 @@ img, video, canvas {
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+}
+
+#main-header h1{
+	margin-right: auto;
 }
 
 .nav-list{
@@ -197,6 +204,10 @@ img, video, canvas {
 		text-align: center;
 	}
 
+	.navbar{
+		order: -1;
+	}
+
 	.nav-list{
 		flex-direction: column;
 		align-items: center;
@@ -223,6 +234,7 @@ img, video, canvas {
 	#main-footer{
 		flex-direction: column;
 		text-align: center;
+		margin-top: auto;
 	}
 
 }
