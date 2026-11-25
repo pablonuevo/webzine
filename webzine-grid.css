@@ -98,6 +98,10 @@ body {
 	gap: 15px;
 }
 
+.post-card:first-of-type{
+	grid-column: 1 / -1;
+}
+
 .post-card footer ul{
 	list-style: none;
 	display: grid;
@@ -224,7 +228,7 @@ body {
 	.latest-posts, #media-center dl, #interactive-zone{
 		grid-template-columns: 1fr;
 	}
-	
+
 	#main-footer{
 		grid-template-columns: 1fr;
 		grid-template-areas:
